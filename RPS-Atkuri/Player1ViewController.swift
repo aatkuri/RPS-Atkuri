@@ -1,5 +1,5 @@
 //
-//  SecondViewController.swift
+//  FirstViewController.swift
 //  RPS-Atkuri
 //
 //  Created by Atkuri,Ashok on 2/19/18.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class SecondViewController: UIViewController {
+class Player1ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
