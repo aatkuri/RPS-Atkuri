@@ -71,13 +71,15 @@ class ResultsViewController: UIViewController {
         AppDelegate.sharedData.choosePlayer2(pick: .None)
         AppDelegate.sharedData.player1wincount = 0
         AppDelegate.sharedData.player2wincount = 0
-        LBLResult.text = "Go to first tab and Start Playing"
-        LBLPlayerResponse.text=""
+        LBLPlayer1Wincount.text = "\(AppDelegate.sharedData.player1wincount) times"
+        LBLPlayer2Wincount.text = "\(AppDelegate.sharedData.player2wincount) times"        
     }
     
+    @IBOutlet weak var BtnPlayAgain: UIButton!
     @IBAction func BtnPlayAgain(_ sender: UIButton) {
         AppDelegate.sharedData.choosePlayer1(pick: .None)
         AppDelegate.sharedData.choosePlayer2(pick: .None)
+        self.tabBarController?.selectedIndex = 0
     }
     
 }

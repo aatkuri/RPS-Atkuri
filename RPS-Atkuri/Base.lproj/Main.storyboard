@@ -104,7 +104,7 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Results" image="icons8-test-passed-filled-25" id="acW-dT-cKf"/>
                     <connections>
-                        <outlet property="BtnPlayAgain" destination="1ve-va-uin" id="1sR-OM-D9W"/>
+                        <outlet property="BtnPlayAgain" destination="1ve-va-uin" id="uMP-hC-hoU"/>
                         <outlet property="LBLPlayer1NameTag" destination="WsM-z5-aYM" id="17m-U6-jXI"/>
                         <outlet property="LBLPlayer1Wincount" destination="hBZ-c7-Ihd" id="d8s-Xg-l7R"/>
                         <outlet property="LBLPlayer2NameTag" destination="HQN-kh-KJ3" id="oza-7V-cWg"/>
