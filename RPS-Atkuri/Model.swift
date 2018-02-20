@@ -13,10 +13,30 @@ class RPSModel
     enum Choice {
         case None,Rock,Paper,Scissor,Lizard,Spock
     }
+    
+    private var _player1Name:String = ""
+    private var _player2Name:String = ""
     private var _player1choice:Choice = .None
     private var _player2choice:Choice = .None
     private var _player1wincount:Int = 0
     private var _player2wincount:Int = 0
+    
+    var player1Name:String{
+        get{
+            return _player1Name
+        }
+        set{
+            _player1Name = newValue
+        }
+    }
+    var player2Name:String{
+        get{
+            return _player2Name
+        }
+        set{
+            _player2Name = newValue
+        }
+    }
     
     var player1choice:Choice{
         get{
@@ -52,7 +72,7 @@ class RPSModel
     }
     
     static var SharedRPSModel:RPSModel{
-        let rpsmodel=RPSModel()
+        let rpsmodel = RPSModel()
         return rpsmodel
     }
     

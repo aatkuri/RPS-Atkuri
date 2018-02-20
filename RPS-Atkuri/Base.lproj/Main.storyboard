@@ -26,15 +26,96 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Player Status" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dps-rB-EDl">
+                                <rect key="frame" x="16" y="125" width="113" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Result" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0gn-Jh-luh">
+                                <rect key="frame" x="16" y="221" width="80" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Player1 Wincount" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WsM-z5-aYM">
+                                <rect key="frame" x="16" y="259" width="146" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Player2 WinCount" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HQN-kh-KJ3">
+                                <rect key="frame" x="16" y="295" width="146" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VkA-1h-BwO">
+                                <rect key="frame" x="16" y="165" width="343" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="icx-MA-L68">
+                                <rect key="frame" x="122" y="221" width="237" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hBZ-c7-Ihd">
+                                <rect key="frame" x="177" y="259" width="94" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bce-Gb-lWR">
+                                <rect key="frame" x="177" y="295" width="94" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mlC-pE-hAa">
+                                <rect key="frame" x="51" y="384" width="77" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Reset"/>
+                                <connections>
+                                    <action selector="BtnReset:" destination="9pv-A4-QxB" eventType="touchUpInside" id="96C-D1-edD"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1ve-va-uin">
+                                <rect key="frame" x="210" y="384" width="79" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Play Again"/>
+                                <connections>
+                                    <action selector="BtnPlayAgain:" destination="9pv-A4-QxB" eventType="touchUpInside" id="LJH-IF-fZM"/>
+                                </connections>
+                            </button>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.9849046017763895" green="0.96436352871728204" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="PQr-Ze-W5v"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Results" image="icons8-test-passed-filled-25" id="acW-dT-cKf"/>
+                    <connections>
+                        <outlet property="BtnPlayAgain" destination="1ve-va-uin" id="1sR-OM-D9W"/>
+                        <outlet property="LBLPlayer1NameTag" destination="WsM-z5-aYM" id="17m-U6-jXI"/>
+                        <outlet property="LBLPlayer1Wincount" destination="hBZ-c7-Ihd" id="d8s-Xg-l7R"/>
+                        <outlet property="LBLPlayer2NameTag" destination="HQN-kh-KJ3" id="oza-7V-cWg"/>
+                        <outlet property="LBLPlayer2Wincount" destination="bce-Gb-lWR" id="Min-Hx-egg"/>
+                        <outlet property="LBLPlayerResponse" destination="VkA-1h-BwO" id="x9f-2F-SUG"/>
+                        <outlet property="LBLResult" destination="icx-MA-L68" id="Xcz-qw-f0e"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-193" y="-422"/>
+            <point key="canvasLocation" x="-194.40000000000001" y="-422.33883058470769"/>
         </scene>
         <!--Player2-->
         <scene sceneID="zer-jO-N6k">
@@ -63,6 +144,9 @@
                                 <rect key="frame" x="127" y="149" width="103" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Submit"/>
+                                <connections>
+                                    <action selector="BTNSubmitOnclick:" destination="pHS-2a-v6C" eventType="touchUpInside" id="dC3-3S-73S"/>
+                                </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" text="Make Your Selection..." textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="t6c-UB-8WS">
                                 <rect key="frame" x="87" y="201" width="201.5" height="43"/>
@@ -78,6 +162,9 @@
                                 <state key="normal" title="Rock" image="icons8-hand-rock-25">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="BTNRockOnclick:" destination="pHS-2a-v6C" eventType="touchUpInside" id="dIz-Ba-ZjX"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yDU-3e-l7h">
                                 <rect key="frame" x="208" y="260" width="81" height="25"/>
@@ -85,6 +172,9 @@
                                 <state key="normal" title="Papers" image="icons8-hand-25">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="BTNPaperOnclick:" destination="pHS-2a-v6C" eventType="touchUpInside" id="nng-y0-FLg"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bMo-1k-r79">
                                 <rect key="frame" x="87" y="321" width="93" height="25"/>
@@ -92,6 +182,9 @@
                                 <state key="normal" title="Scissors" image="icons8-hand-scissors-25">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="BTNScissorOnclick:" destination="pHS-2a-v6C" eventType="touchUpInside" id="LKQ-G3-vfz"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aAr-lk-2Pp">
                                 <rect key="frame" x="208" y="321" width="89" height="25"/>
@@ -99,6 +192,9 @@
                                 <state key="normal" title="Lizard" image="icons8-hand-lizard-33">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="BTNLizardOnclick:" destination="pHS-2a-v6C" eventType="touchUpInside" id="qvW-fl-y5j"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wMQ-qr-Rzf">
                                 <rect key="frame" x="147" y="374" width="81" height="25"/>
@@ -106,12 +202,26 @@
                                 <state key="normal" title="Spock" image="icons8-spock-25">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="BTNSpockOnclick:" destination="pHS-2a-v6C" eventType="touchUpInside" id="Jrl-I6-hPH"/>
+                                </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.68481663954956762" green="0.65787943106430458" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="iIL-B6-sUH"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Player2" image="icons8-anonymous-mask-filled-25" id="82x-fy-LYc"/>
+                    <connections>
+                        <outlet property="BTNLizard" destination="aAr-lk-2Pp" id="eZR-Jf-3Tc"/>
+                        <outlet property="BTNPaper" destination="yDU-3e-l7h" id="p15-WW-Djn"/>
+                        <outlet property="BTNRock" destination="4FT-6s-onj" id="YcK-Kj-e32"/>
+                        <outlet property="BTNScissor" destination="bMo-1k-r79" id="8m5-w7-SEs"/>
+                        <outlet property="BTNSpock" destination="wMQ-qr-Rzf" id="7kP-AT-H09"/>
+                        <outlet property="BTNSubmit" destination="o8E-kW-omJ" id="XiD-Of-VVv"/>
+                        <outlet property="LBLMessageStatus" destination="t6c-UB-8WS" id="dzX-ti-bZK"/>
+                        <outlet property="TBIPlayer2" destination="82x-fy-LYc" id="sfu-Jc-2dr"/>
+                        <outlet property="TFPlayer2Name" destination="LFP-Jw-8Y3" id="vCa-WN-20p"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qNs-kq-zVZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -136,6 +246,9 @@
                                 <rect key="frame" x="123" y="173" width="124" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Submit"/>
+                                <connections>
+                                    <action selector="BTNSubmitOnclick:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="n3F-HW-i8v"/>
+                                </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" text="Make Your Selection..." textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="qk0-Xp-LbK">
                                 <rect key="frame" x="87" y="211" width="201.5" height="43"/>
@@ -152,6 +265,9 @@
                                 <state key="normal" title="Rock" image="icons8-hand-rock-25">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
+                                <connections>
+                                    <action selector="BTNRockOnclick:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="NXY-Mv-pBG"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Aok-PU-Dik">
                                 <rect key="frame" x="208" y="277" width="81" height="25"/>
@@ -159,6 +275,9 @@
                                 <state key="normal" title="Papers" image="icons8-hand-25">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="BTNPaperOnclick:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="flo-dY-KFy"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ifa-ae-h0h">
                                 <rect key="frame" x="88" y="337" width="93" height="25"/>
@@ -166,6 +285,9 @@
                                 <state key="normal" title="Scissors" image="icons8-hand-scissors-25">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="BTNScissorOnclick:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="Woo-j1-p15"/>
+                                </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" text="Enter Your Name" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="jdZ-0I-qtz">
                                 <rect key="frame" x="88" y="38" width="201.5" height="43"/>
@@ -181,6 +303,9 @@
                                 <state key="normal" title="Spock" image="icons8-spock-25">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="BTNSpockOnclick:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="XqF-lW-lsc"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KPn-OB-YcD">
                                 <rect key="frame" x="208" y="337" width="89" height="25"/>
@@ -188,12 +313,26 @@
                                 <state key="normal" title="Lizard" image="icons8-hand-lizard-33">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="BTNLizardOnclick:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="n6c-X1-mYp"/>
+                                </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="1" green="0.7258118678968446" blue="0.4173109655219851" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="O1u-W8-tvY"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Player1" image="icons8-anonymous-mask-filled-25" id="cPa-gy-q4n"/>
+                    <connections>
+                        <outlet property="BTNLizard" destination="KPn-OB-YcD" id="d3V-cP-oW2"/>
+                        <outlet property="BTNPaper" destination="Aok-PU-Dik" id="QjT-2F-K2G"/>
+                        <outlet property="BTNRock" destination="qew-a7-h7w" id="DKk-Be-Pgt"/>
+                        <outlet property="BTNScissor" destination="Ifa-ae-h0h" id="XY2-7j-9we"/>
+                        <outlet property="BTNSpock" destination="8c1-nJ-ao9" id="v7P-yG-Zqj"/>
+                        <outlet property="BTNSubmit" destination="VlG-95-tDI" id="A2A-yI-Fpw"/>
+                        <outlet property="LBLStatusMessage" destination="qk0-Xp-LbK" id="W8O-de-6lJ"/>
+                        <outlet property="TBIPlayer1" destination="cPa-gy-q4n" id="2VM-Sa-Pxy"/>
+                        <outlet property="TFPlayer1Name" destination="8bW-De-Ikq" id="Euo-5B-u5u"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
             </objects>

@@ -10,6 +10,16 @@ import UIKit
 
 class Player2ViewController: UIViewController {
 
+    @IBOutlet weak var TFPlayer2Name: UITextField!
+    @IBOutlet weak var BTNSubmit: UIButton!
+    @IBOutlet weak var LBLMessageStatus: UILabel!
+    @IBOutlet weak var BTNRock: UIButton!
+    @IBOutlet weak var BTNPaper: UIButton!
+    @IBOutlet weak var BTNScissor: UIButton!
+    @IBOutlet weak var BTNLizard: UIButton!
+    @IBOutlet weak var BTNSpock: UIButton!
+    @IBOutlet weak var TBIPlayer2: UITabBarItem!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -19,6 +29,38 @@ class Player2ViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        if AppDelegate.sharedData.player2choice != .None
+        {
+            BTNRock.isEnabled = false
+            BTNPaper.isEnabled = false
+            BTNScissor.isEnabled = false
+            BTNLizard.isEnabled = false
+            BTNSpock.isEnabled = false
+            LBLMessageStatus.text = "Selection is already made"
+        }
+    }
+    override func viewWillAppear(_ animated: Bool) {
+        if AppDelegate.sharedData.player2choice != .None
+        {
+            BTNRock.isEnabled = false
+            BTNPaper.isEnabled = false
+            BTNScissor.isEnabled = false
+            BTNLizard.isEnabled = false
+            BTNSpock.isEnabled = false
+            LBLMessageStatus.text = "Selection is already made"
+        }
+        else
+        {
+            BTNRock.isEnabled = true
+            BTNPaper.isEnabled = true
+            BTNScissor.isEnabled = true
+            BTNLizard.isEnabled = true
+            BTNSpock.isEnabled = true
+            LBLMessageStatus.text = "Make a selection"
+        }
     }
     
 
@@ -31,5 +73,40 @@ class Player2ViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
+    
+    @IBAction func BTNSubmitOnclick(_ sender: UIButton) {
+        let Name:String = TFPlayer2Name.text!
+        if Name != ""
+        {
+            TFPlayer2Name.isEnabled = false
+            AppDelegate.sharedData.player2Name = Name
+            TBIPlayer2.title = Name
+        }
+    }
+    
+    @IBAction func BTNRockOnclick(_ sender: UIButton) {
+        AppDelegate.sharedData.choosePlayer2(pick:.Rock)
+        LBLMessageStatus.text="selection has been made"
+    }
+    
+    @IBAction func BTNPaperOnclick(_ sender: UIButton) {
+        AppDelegate.sharedData.choosePlayer2(pick:.Paper)
+        LBLMessageStatus.text="selection has been made"
+    }
+    
+    @IBAction func BTNScissorOnclick(_ sender: UIButton) {
+        AppDelegate.sharedData.choosePlayer2(pick:.Scissor)
+        LBLMessageStatus.text="selection has been made"
+    }
+    
+    @IBAction func BTNLizardOnclick(_ sender: UIButton) {
+        AppDelegate.sharedData.choosePlayer2(pick:.Lizard)
+        LBLMessageStatus.text="selection has been made"
+    }
+    
+    @IBAction func BTNSpockOnclick(_ sender: UIButton) {
+        AppDelegate.sharedData.choosePlayer2(pick:.Spock)
+        LBLMessageStatus.text="selection has been made"
+    }
 
 }
