@@ -41,11 +41,10 @@ class ResultsViewController: UIViewController {
         if AppDelegate.sharedData.haveResult()
         {
             LBLResult.text = AppDelegate.sharedData.winner()
-            LBLPlayerResponse.text = "Both the players have responded"
+            LBLPlayerResponse.text = "Check Out the result Below"
         }
         else
         {
-            LBLResult.text = "Somethings fishy, Players response needed"
             if AppDelegate.sharedData.player1choice == .None
             {
                 LBLPlayerResponse.text = "No Selection from player 1"
@@ -72,7 +71,7 @@ class ResultsViewController: UIViewController {
         AppDelegate.sharedData.player1wincount = 0
         AppDelegate.sharedData.player2wincount = 0
         LBLPlayer1Wincount.text = "\(AppDelegate.sharedData.player1wincount) times"
-        LBLPlayer2Wincount.text = "\(AppDelegate.sharedData.player2wincount) times"        
+        LBLPlayer2Wincount.text = "\(AppDelegate.sharedData.player2wincount) times"
     }
     
     @IBOutlet weak var BtnPlayAgain: UIButton!

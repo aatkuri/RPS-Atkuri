@@ -86,27 +86,27 @@ class Player2ViewController: UIViewController {
     
     @IBAction func BTNRockOnclick(_ sender: UIButton) {
         AppDelegate.sharedData.choosePlayer2(pick:.Rock)
-        LBLMessageStatus.text="selection has been made"
+        LBLMessageStatus.text="selection has been made: Rock"
     }
     
     @IBAction func BTNPaperOnclick(_ sender: UIButton) {
         AppDelegate.sharedData.choosePlayer2(pick:.Paper)
-        LBLMessageStatus.text="selection has been made"
+        LBLMessageStatus.text="selection has been made: Paper"
     }
     
     @IBAction func BTNScissorOnclick(_ sender: UIButton) {
         AppDelegate.sharedData.choosePlayer2(pick:.Scissor)
-        LBLMessageStatus.text="selection has been made"
+        LBLMessageStatus.text="selection has been made: Scissor"
     }
     
     @IBAction func BTNLizardOnclick(_ sender: UIButton) {
         AppDelegate.sharedData.choosePlayer2(pick:.Lizard)
-        LBLMessageStatus.text="selection has been made"
+        LBLMessageStatus.text="selection has been made: Lizard"
     }
     
     @IBAction func BTNSpockOnclick(_ sender: UIButton) {
         AppDelegate.sharedData.choosePlayer2(pick:.Spock)
-        LBLMessageStatus.text="selection has been made"
+        LBLMessageStatus.text="selection has been made: Spock"
     }
 
 }
