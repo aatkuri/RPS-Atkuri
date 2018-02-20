@@ -51,7 +51,7 @@ class RPSModel
         }
     }
     
-    private static var SharedRPSModel:RPSModel{
+    static var SharedRPSModel:RPSModel{
         let rpsmodel=RPSModel()
         return rpsmodel
     }
